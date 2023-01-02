@@ -1,17 +1,51 @@
 <!DOCTYPE HTML>
 <html>
+	<title>title</title>
 	<head>
-	<title>nhan2k0.xyz</title>
-	<head>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link href="script.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />		
+	</head>
 	
-	<style>
-	body{
-	background-color:lightgrey;
-	padding:30px;
+	<script>
+	function startTime() {
+		var today = new Date();
+		var h = today.getHours();
+		var m = today.getMinutes();
+		var s = today.getSeconds();
+		m = checkTime(m);
+		s = checkTime(s);
+		document.getElementById('txt').innerHTML =
+		h + ":" + m + ":" + s;
+		var t = setTimeout(startTime, 500);
 	}
-	</style>
-	
+	function checkTime(i) {
+		if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+		return i;
+	}
+	</script>
+
+
 	<body>
+	<body onload="startTime()">
+	<div id="wrapper">
+	<!---header/navbar--->
+	<div id="banner"><img src="./img/logo.png"></div>
+	<div id="nav">
+			
+		<ul>
+		<li><a href="#">Test 1</a></li>
+		<li><a href="#">Test 2</a></li>
+		<li><a href="#">Test 3</a></li>
+		<li><a href="#">Test 4</a></li>
+		<div id="navclock"><li><div id="txt"></div></a></li></div>
+		</ul>
+	</div>
+	<!---end--->
+	
+	<div id="body1">
+	<div id="content">
+           
 	<h1>Hello!</h1>
 	<p>Hello!, my name is Nhan!
 	<br>Welcome to my page
@@ -27,5 +61,19 @@
 	<br><img src="https://gifcities.org/assets/loading1.gif"</img>
 	<br><img src="https://web.archive.org/web/20090831183518/http://www.geocities.com/kjlb20041/wiptotrip.gif"><img src="https://web.archive.org/web/20090831183518/http://www.geocities.com/kjlb20041/wiptotrip.gif"><img src="https://web.archive.org/web/20090831183518/http://www.geocities.com/kjlb20041/wiptotrip.gif"><img src="https://web.archive.org/web/20090831183518/http://www.geocities.com/kjlb20041/wiptotrip.gif">
 	</center>
+	</body>
+	</div>
+	
+
+	</div>
+	
+	<div id="footer1">
+	<center>[insert footer text here]</center>
+	</div>
+	
+	
+	</div>
+	
+	
 	</body>
 </html>
