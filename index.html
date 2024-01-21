@@ -1,79 +1,30 @@
 <!DOCTYPE HTML>
 <html>
-	<title>title</title>
 	<head>
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link href="script.css" rel="stylesheet">
-		<meta name="viewport" content="width=device-width, initial-scale=1" />		
+	<title>Nhan</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="script.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
 	</head>
 	
-	<script>
-	function startTime() {
-		var today = new Date();
-		var h = today.getHours();
-		var m = today.getMinutes();
-		var s = today.getSeconds();
-		m = checkTime(m);
-		s = checkTime(s);
-		document.getElementById('txt').innerHTML =
-		h + ":" + m + ":" + s;
-		var t = setTimeout(startTime, 500);
-	}
-	function checkTime(i) {
-		if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-		return i;
-	}
-	</script>
-
-
 	<body>
-	<body onload="startTime()">
-	<div id="wrapper">
-	<!---header/navbar--->
-	<div id="banner"><img src="./img/logo.png"></div>
-	<div id="nav">
-			
-		<ul>
-		<li><a href="#">Test 1</a></li>
-		<li><a href="#">Test 2</a></li>
-		<li><a href="#">Test 3</a></li>
-		<li><a href="#">Test 4</a></li>
-		<div id="navclock"><li><div id="txt"></div></a></li></div>
-		</ul>
-	</div>
-	<!---end--->
-	
-	<div id="body1">
-	<div id="content">
-           
-	<h1>Hello!</h1>
-	<p>Hello!, my name is Nhan!
-	<br>Welcome to my page
-	<br>The site currently it's very WIP and due to amount of in real life stuff(or just simply lazy) i don't have times to write stuff to my page
-	so i apologize for that :(</p>
-	<p>In the meantime, the only thing i can give you very simple site like this, hopefully to have something fresh</p>
-	<hr>
-	<h1>In the meantime?????</h1>
-	<p>You can just simply go to my <a href="https://youtube.com/stepnhan">YouTube</a> Channel to look at my stuff</p>
-	<hr>
-	<center>
-	<img src="https://web.archive.org/web/20090831183518/http://www.geocities.com/kjlb20041/wiptotrip.gif"><img src="https://web.archive.org/web/20090831183518/http://www.geocities.com/kjlb20041/wiptotrip.gif"><img src="https://web.archive.org/web/20090831183518/http://www.geocities.com/kjlb20041/wiptotrip.gif"><img src="https://web.archive.org/web/20090831183518/http://www.geocities.com/kjlb20041/wiptotrip.gif">
-	<br><img src="https://gifcities.org/assets/loading1.gif"</img>
-	<br><img src="https://web.archive.org/web/20090831183518/http://www.geocities.com/kjlb20041/wiptotrip.gif"><img src="https://web.archive.org/web/20090831183518/http://www.geocities.com/kjlb20041/wiptotrip.gif"><img src="https://web.archive.org/web/20090831183518/http://www.geocities.com/kjlb20041/wiptotrip.gif"><img src="https://web.archive.org/web/20090831183518/http://www.geocities.com/kjlb20041/wiptotrip.gif">
-	</center>
-	</body>
-	</div>
-	
+		<div class="w3-display-middle">
+			<div id="boxbody">
+				<div id="content">
+					<div class="w3-display-middle">
+					<center>
+					<img src="img/nhan.gif" width=512 height=511></img>
+					<br><i>GIF by <b>Leandro170</b></i><br>
+					<br>I apologize if the site dosen't mobile-friendly</br>
+					</center>
+					</div>
+				</div>	
+				<div id="footer1"><center>2024 - background by <b><a href="https://oat.zone/">oatmealine</a></b></center></div>
+			</div>		
+		</div>
 
-	</div>
-	
-	<div id="footer1">
-	<center>[insert footer text here]</center>
-	</div>
-	
-	
-	</div>
-	
-	
 	</body>
 </html>

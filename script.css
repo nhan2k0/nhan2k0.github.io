@@ -1,99 +1,38 @@
 /*
-CSS for the page with some minor issue, mostly the phone interface will not look good
-Will be fix when i have time or i'm not lazy :P
+css
 */
-
 body{
-	/* background-color:#94b6ff; */
-	background-image: url("img/bg.png");
-	font-family: verdana, arial, helvetica, sans-serif;
-	margin: 0;
-}
-
-
-
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-}
-
-li{
+	background-color:#242a30;
+	background-image: url("img/bg2.png");
+	background-attachment: fixed;
+	font-family: 'Archivo Narrow', sans-serif;
 	color:white;
+	overflow-y:hidden;
 }
 
-li a {
-    display: block;
-    color: #4b7561;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	transition:all 0.2s;
+#headerpic{
+	max-width:700px;
 }
 
-li a:hover {
-    background-color: #111;
-}
-
-
-#nav{
-	width:658px;
-	height:30px;
-	background-color:black;	
-}
-
-#nav li{
-		float:left;
-}
-
-#body1{
-	width:658px;
-	height:600px;
-	background-color:#1e2e51;
-	position:absolute;
-	top: 195px;
+#boxbody{
+	opacity:0.8;
+	width:700px;
+	height:650px;
+	background-color:#40444a;	
 }
 
 #content{
-	width:658px;
-	height:600px;
-	padding-left:20px;
-	padding-top:30px;
-	font-size:15px;
-	color:white;
-	overflow-y:scroll;
-}
-
-
-#navclock{
-	float:right;
-	display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	text-align: justify;
+	width:700px;
+	height:650px;
+	padding:20px;
+	font-size:16px;
 }
 
 #footer1{
-	width:658px;
+	width:700px;
 	height:50px;
-	background-color:#004849;
-	position:absolute;
-	top:795px;
-	padding-top:15px;
+	background-color:#202224;
+	padding:10px;
 }
 
-#wrapper{
-	width:650px;
-	margin:auto;
-	color:#FFF;
-	
-}
-
-#banner{
-	width:658px;
-	height:auto;
-	background-color:black;
-}
