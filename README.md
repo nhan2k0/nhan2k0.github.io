@@ -1,3 +1,6 @@
 # nhan2k0.github.io
  
-portion of this site using W3 CSS framework
+Credits :
+- CSS - W3-CSS
+- GIF - Leandro170
+- Background - oatmealine
