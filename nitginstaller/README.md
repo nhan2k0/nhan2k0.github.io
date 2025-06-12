@@ -1,4 +1,4 @@
-(./img.png)
+[notitg installer](https://nhan2k0.xyz/nitginstaller/img.png)
 # README
 unofficial notitg installer as the result of 2 day learning how to make things with NSIS
 
