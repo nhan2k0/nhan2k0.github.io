@@ -13,12 +13,13 @@ unofficial notitg installer for people who looking for realiable way and easier 
 - Bundled with Mirin Template v5.0.2
 - Creating Shortcut
 # DOWNLOAD
+Standalone version will be added later
 ## Online version
-`
+``
 MD5:
 File Size:
 Date Added:
-`
+``
 # Tool/Plugin used for the installer:
 - NSIS 3.11
 - NSCurl
