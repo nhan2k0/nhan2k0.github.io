@@ -1,22 +1,25 @@
 ![nitg installer](https://nhan2k0.xyz/nitginstaller/img.png)
-# README
-unofficial notitg installer as the result of 2 day learning how to make things with NSIS
+# NotITG unofficial installer
+unofficial notitg installer for people who looking for realiable way and easier way to get NotITG
+<br>this installer is not endorsed by NotITG team
 
-# WHAT DOES IT DO?
+# Installer Process
+- Download game file from NotITG website using `NSLCurl`
+- Game file located in `$TEMP`
+- Extract the game files using `NSISUnz`
 
-## online version
-the installer will grab the game file from notitg website and then extract the game files for you
-## standalone version
-game files already packaged from the installer
-
+# Optional Features
+- Song Removal for people who want to have minimal space
+- Bundled with Mirin Template v5.0.2
+- Creating Shortcut
 # DOWNLOAD
-tbh probably precompiled and source code as well
-
-# SOURCE CODE REQUIREMENT
-- NSIS
-- NSLCurl
-- nsisunz
-
-# FALSE POSITIVE
-this is common issue with the nsis installer, the code itself is harmless
-[NSIS False Positives](https://nsis.sourceforge.io/NSIS_False_Positives#Where_to_report_false_positives)
+## Online version
+`
+MD5:
+File Size:
+Date Added:
+`
+# Tool/Plugin used for the installer:
+- NSIS 3.11
+- NSCurl
+- NSISUnz
